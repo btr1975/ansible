@@ -10,7 +10,7 @@
 
 ### About
 
-This image is for Python Django Apps written in Python 2
+This image is a Ansible Container
 
 ### Image Versions in ansible:1.0
 
