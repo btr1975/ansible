@@ -12,7 +12,7 @@
 
 This image is for Python Django Apps written in Python 2
 
-### Image Versions in apache-py2-django:1.0
+### Image Versions in ansible:1.0
 
 * Python: 2.7.12
 * Ansible Version: 2.3.1.0
