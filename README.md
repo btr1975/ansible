@@ -17,7 +17,16 @@ This image is a Ansible Container
 * Python: 2.7.12
 * Ansible Version: 2.3.1.0
 
+### Image Versions in ansible:1.1
+
+* Python: 2.7.12
+* Ansible Version: 2.3.1.0
+
 ### Docker-Image Version Tags
 * latest
 * 1.0
+* 1.1
+
+### Version 1.1 news
+* I added in ssh, how could I forget that?
 
