@@ -29,4 +29,5 @@ This image is a Ansible Container
 
 ### Version 1.1 news
 * I added in ssh, how could I forget that?
+* I added jq for easy json lookup
 

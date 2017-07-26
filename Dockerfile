@@ -15,6 +15,8 @@ RUN apt-get update && apt-get install -y python \
     nano \
     tree \
     ssh \
+    sshpass \
+    jq \
     && apt-get clean \
     && pip install --upgrade pip \
     && pip install --upgrade ansible
