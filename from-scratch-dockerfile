@@ -1,4 +1,4 @@
-# This is to build a Ansible container from scratch
+# This is a way to see what I changed in the container
 FROM ubuntu:16.04 as temp1
 
 LABEL maintainer="e_ben_75-python@yahoo.com" \
@@ -26,5 +26,19 @@ RUN apt-get update && apt-get install -y ssh \
     sshpass \
     jq \
     && apt-get clean
+
+FROM temp2 as temp3
+
+LABEL image-version="1.2" \
+      ansible-version="2.4.2.0" \
+      git-version="2.7.4"
+
+WORKDIR /ansible
+
+RUN apt-get install -y software-properties-common && \
+    apt-add-repository ppa:ansible/ansible && \
+    apt-get update && \
+    apt-get install -y ansible \
+    git
 
 
