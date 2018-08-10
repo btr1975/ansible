@@ -53,4 +53,4 @@ This image is a Ansible Container
 * I added in Git for inventory management
 
 ### Version 1.3 News
-* I upgraded the ansible version
+* I upgraded the Ansible version
