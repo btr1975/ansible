@@ -1,11 +1,10 @@
-# This is for a Docker hub auto build
 FROM ubuntu:16.04
 
 LABEL maintainer="e_ben_75-python@yahoo.com" \
       description="This is a Ansible container" \
       package-name="ansible" \
-      image-version="1.2" \
-      ansible-version="2.4.2.0" \
+      image-version="1.3" \
+      ansible-version="2.6.2" \
       python-version="2.7.12" \
       git-version="2.7.4"
 
@@ -26,5 +25,4 @@ RUN apt-get update \
     jq \
     git \
     && apt-get clean \
-    && pip install --upgrade pip \
-    && pip install --upgrade ansible
+    && pip install --upgrade pip
